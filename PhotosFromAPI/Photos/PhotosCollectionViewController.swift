@@ -153,7 +153,7 @@ class PhotosCollectionViewController: UICollectionViewController {
     }
     
     private func setupNavigationBar() {
-        let titleLabel = UILabel(text: "PHOTOS", font: .systemFont(ofSize: 15, weight: .medium), textColor: #colorLiteral(red: 0.5019607843, green: 0.4980392157, blue: 0.4980392157, alpha: 1))
+        let titleLabel = UILabel(text: "PHOTOS", font: .systemFont(ofSize: 15, weight: .medium), textColor: #colorLiteral(red: 0.6666666865, green: 0.6666666865, blue: 0.6666666865, alpha: 1))
         navigationItem.leftBarButtonItem = UIBarButtonItem.init(customView: titleLabel)
         navigationItem.rightBarButtonItems = [actionBarButtonItem, addBarButtonItem]
         navigationController?.hidesBarsOnSwipe = true
@@ -169,6 +169,7 @@ class PhotosCollectionViewController: UICollectionViewController {
         seacrhController.hidesNavigationBarDuringPresentation = false
         seacrhController.obscuresBackgroundDuringPresentation = false
         seacrhController.searchBar.delegate = self
+        seacrhController.searchBar.placeholder = "Search photos"
         
     }
     
