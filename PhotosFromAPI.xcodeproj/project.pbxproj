@@ -22,6 +22,11 @@
 		EA37293D258C0EBE003BF097 /* LikesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37293C258C0EBE003BF097 /* LikesCollectionViewController.swift */; };
 		EA372940258C0EF4003BF097 /* LikesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37293F258C0EF4003BF097 /* LikesCollectionViewCell.swift */; };
 		EA372944258C0FBF003BF097 /* UIKit + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA372943258C0FBF003BF097 /* UIKit + Extension.swift */; };
+		EA7D35A4259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.04.18.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7D359F259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.04.18.png */; };
+		EA7D35A5259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.08.32.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7D35A0259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.08.32.png */; };
+		EA7D35A6259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.08.12.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7D35A1259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.08.12.png */; };
+		EA7D35A7259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.12.42.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7D35A2259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.12.42.png */; };
+		EA7D35A8259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.06.53.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7D35A3259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.06.53.png */; };
 		EA964519258AA04F00692E05 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA964518258AA04F00692E05 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +50,11 @@
 		EA37293C258C0EBE003BF097 /* LikesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCollectionViewController.swift; sourceTree = "<group>"; };
 		EA37293F258C0EF4003BF097 /* LikesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCollectionViewCell.swift; sourceTree = "<group>"; };
 		EA372943258C0FBF003BF097 /* UIKit + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit + Extension.swift"; sourceTree = "<group>"; };
+		EA7D359F259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.04.18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-12-30 в 23.04.18.png"; sourceTree = "<group>"; };
+		EA7D35A0259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.08.32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-12-30 в 23.08.32.png"; sourceTree = "<group>"; };
+		EA7D35A1259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.08.12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-12-30 в 23.08.12.png"; sourceTree = "<group>"; };
+		EA7D35A2259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.12.42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-12-30 в 23.12.42.png"; sourceTree = "<group>"; };
+		EA7D35A3259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.06.53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-12-30 в 23.06.53.png"; sourceTree = "<group>"; };
 		EA964518258AA04F00692E05 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +73,7 @@
 		326001F1F67772096341D933 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA7D3592259D08C1005E3EBF /* Screenshots */,
 				12EFD2BC9235A5ACAE9144C0 /* Pods_PhotosFromAPI.framework */,
 			);
 			name = Frameworks;
@@ -158,6 +169,18 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		EA7D3592259D08C1005E3EBF /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				EA7D359F259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.04.18.png */,
+				EA7D35A3259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.06.53.png */,
+				EA7D35A1259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.08.12.png */,
+				EA7D35A0259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.08.32.png */,
+				EA7D35A2259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.12.42.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,8 +240,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7D35A7259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.12.42.png in Resources */,
+				EA7D35A5259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.08.32.png in Resources */,
+				EA7D35A6259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.08.12.png in Resources */,
+				EA7D35A8259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.06.53.png in Resources */,
 				EA0CBDA42589E3500044C5BA /* LaunchScreen.storyboard in Resources */,
 				EA0CBDA12589E3500044C5BA /* Assets.xcassets in Resources */,
+				EA7D35A4259D09E1005E3EBF /* Снимок экрана 2020-12-30 в 23.04.18.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

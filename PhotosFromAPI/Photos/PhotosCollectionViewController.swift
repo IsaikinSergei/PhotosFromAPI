@@ -88,8 +88,8 @@ class PhotosCollectionViewController: UICollectionViewController {
             mutablePhotos.append(photo)
             return mutablePhotos
     })
-        let alertController = UIAlertController(title: "", message: "\(selectedPhotos!.count) фото будут добавлены в альбом", preferredStyle: .alert)
-        let add = UIAlertAction(title: "Добавить", style: .default) { (action) in
+        let alertController = UIAlertController(title: "", message: "\(selectedPhotos!.count) photos will add to favourites", preferredStyle: .alert)
+        let add = UIAlertAction(title: "Add", style: .default) { (action) in
             let tabbar = self.tabBarController as! MainTabBarController
             let navVC = tabbar.viewControllers?[1] as! UINavigationController
             let likesVC = navVC.topViewController as! LikesCollectionViewController
@@ -99,7 +99,7 @@ class PhotosCollectionViewController: UICollectionViewController {
             
             self.refresh()
         }
-        let cancel = UIAlertAction(title: "Отменить", style: .cancel) { (action) in
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel) { (action) in
         }
         alertController.addAction(add)
         alertController.addAction(cancel)
